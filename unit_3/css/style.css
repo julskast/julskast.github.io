@@ -1,4 +1,7 @@
-body {
-	background-color: white
-	
+#hero {
+	max-width: 900px
+}
+
+#slogan {
+	color: blue;
 }
