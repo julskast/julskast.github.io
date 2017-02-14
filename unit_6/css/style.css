@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900|Open+Sans:400,600,600i,700');
+
+
+body {
+	background-image: url("../images/header_hero_image.jpg");
+	background-repeat: no-repeat;
+	background-size: 10px
+
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+    font-size: 1.8em;
+    float: right;
+}
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#two_column{
+	background-color: #FFB7CF; 
+	border: 1px black solid;
+	padding: 20px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#slogan {
+	color: blue;
+}
+
+h1, h2, h3 {
+
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+
+}
+
+p, li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
