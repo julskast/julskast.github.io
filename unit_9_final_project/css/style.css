@@ -47,14 +47,10 @@ nav {
 	object-fit: contain;
 }
 
-h1.splashwhite {
-	color: #FFF;
-	font-size: 28px;
-	
-}
 
-p.splashwhite {
-	color: #FFF;
+#splashcopy {
+	background-color: #fff;
+	width: 50%;
 }
 
 .button1 {
