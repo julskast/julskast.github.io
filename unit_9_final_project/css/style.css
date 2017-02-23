@@ -49,8 +49,9 @@ nav {
 
 
 #splashcopy {
-	background-color: #fff;
+	background-color: #D5D5D5;
 	width: 50%;
+	opacity: 5%;
 }
 
 .button1 {
@@ -126,7 +127,13 @@ footer {
 }
 
 
-h1, h2, h3 {
+h1 {
+	font-family: 'Lato', sans-serif;
+	text-transform: none;
+	font-size: 44px;
+} 
+
+h2, h3 {
 
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
