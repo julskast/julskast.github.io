@@ -1,69 +1,65 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900|Open+Sans:400,600,600i,700');
-
-
+* {margin:0;padding:0;box-sizing:border-box;}
 body {	
-
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height:1.5;
 }
-
 header {
-	background-color: #FFF;
 	padding: 20px;
-
-
 }
 
 nav {
-	background-color: #FFF;
-	font-family: "Lato";
-    font-size: 13px;
     text-transform: uppercase;
-    text-decoration: none;
     letter-spacing: 1px;
-    font-weight: 400;
-    font-style: normal;
     float: right;
-    
 }
-
-#topnav {
-	list-style-type: none;
-	margin: 0;
+a {
+	color: #603;
+	text-decoration: none;
+}
+a:active {
+	color: #0000ff;
+	text-decoration: none; }
+a:hover {
+	color: #D3D3D3;
+	text-decoration: underline;
+}
+nav a {
+	display:inline-block;
+	padding:1em 2em;
+}
+.button1 {
+	background-color: #603;
+	border: none;
+	color: white;
+	padding: 1em 2em;
 	text-align: center;
-
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	/* width: 80%; */
 }
-	
-#topnav li {
-	display: inline;
-	padding-left: 3em;
-	
+.button1:hover {
+	background-color:rgba(102, 0, 51, 0.53);
+	color:#fff;
+	text-decoration:none;
 }
-
 #splash {
 	background-image: url("../images/header_hero_image.jpg");
 	background-repeat: no-repeat;
-	width: 100%;
-	max-height: 100%;
-	object-fit: contain;
+	background-size: cover;
+	height: 90vh;
+	background-position: bottom;
 }
-
-
 #splashcopy {
-	background-color: #D5D5D5;
-	width: 40%;
-	opacity: 5%;
+	background-color: rgba(213, 213, 213, 0.8);
+	width: 45em;
+	margin: auto;
 }
-
-.button1 {
-	background-color: #603;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    width: 80%;
+#splash p {
+	margin:1em 0 2em;
 }
 
 section {
@@ -87,9 +83,7 @@ section {
     height: 0;
 }
 
-a:link {color: #603; font-weight: 400; text-decoration: none; }
-a:active {color: #0000ff; text-decoration: none; }
-a:hover {color: #D3D3D3; text-decoration: underline; }
+
 
 #left {
 	background-color: #E582A2;
@@ -119,30 +113,13 @@ footer {
 	color: blue;
 }
 
-#logo {
-
-    height: auto; 
-    width: auto; 
-    max-height: 20px;
-    float: left;
-}
-
-
+#logo {width: 15em;float: left;padding: 1em;}
 h1 {
-	font-family: 'Lato', sans-serif;
+	
 	text-transform: none;
 	font-size: 44px;
-} 
-
+}
 h2, h3 {
-
-	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
 	font-size: 24px;
-
-}
-
-p, li {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 16px;
 }
