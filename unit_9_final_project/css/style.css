@@ -63,8 +63,7 @@ nav a {
 }
 
 section {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	
 	padding: 20px;
 }
 
@@ -104,22 +103,54 @@ section {
 }
 
 footer {
-	background-color: #FF957E;
-	border: 1px black solid;
+	background-color: #603;
+	color: #fff;
 	padding: 20px;
+	text-align: center;
 }
 
 #slogan {
+
 	color: blue;
 }
 
 #logo {width: 15em;float: left;padding: 1em;}
+
+#jeans ul{
+	display:inline-block;
+	border: 1px green;
+}
+
+#jeans img {
+	max-width: 40em;
+}
+
+
+#seen-in img {
+	max-height: 2em;
+	margin: 2em 3em;
+
+}
+
+#seen-in p {
+	text-align: center;
+	text-size: 1.5em;
+}
+
 h1 {
 	
 	text-transform: none;
 	font-size: 44px;
 }
-h2, h3 {
+
+h2 {
+
 	text-transform: uppercase;
+	font-size: 36px;
+	text-align: center;
+}
+
+h3 {
+	text-transform: none;
 	font-size: 24px;
 }
