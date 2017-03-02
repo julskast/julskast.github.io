@@ -15,20 +15,25 @@ nav {
     letter-spacing: 1px;
     float: right;
 }
+
 a {
-	color: #603;
-	text-decoration: none;
+	color: #603;	
 }
+
 a:active {
 	color: #0000ff;
-	text-decoration: none; }
+	text-decoration: none; 
+}
+
 a:hover {
-	color: #D3D3D3;
+	color: rgba(107,42,74,.53);
 	text-decoration: underline;
 }
+
 nav a {
 	display:inline-block;
 	padding:1em 2em;
+	text-decoration: none;
 }
 .button1 {
 	background-color: #603;
@@ -42,10 +47,29 @@ nav a {
 	/* width: 80%; */
 }
 .button1:hover {
-	background-color:rgba(102, 0, 51, 0.53);
+	background-color:rgba(107,42,74,.53);
 	color:#fff;
 	text-decoration:none;
 }
+
+p.sectionsubcopy {
+
+	padding: .5em;
+	text-align: center;
+	font-size: 1.1em;
+
+}
+
+#mission {
+	background-color: rgba(204,51,65,.08);
+	padding: 2em;
+}
+
+#team {
+
+	padding: 2em;
+}
+
 #splash {
 	background-image: url("../images/header_hero_image.jpg");
 	background-repeat: no-repeat;
@@ -54,9 +78,11 @@ nav a {
 	background-position: bottom;
 }
 #splashcopy {
-	background-color: rgba(213, 213, 213, 0.8);
-	width: 45em;
-	margin: auto;
+	background-color: rgba(213, 213, 213, 0.7);
+	width: 30em;
+	text-align: center;
+	margin: 10em 20em 20em;
+
 }
 #splash p {
 	margin:1em 0 2em;
@@ -67,11 +93,7 @@ section {
 	padding: 20px;
 }
 
-#two_column{
-	background-color: #FFB7CF; 
-	border: 1px black solid;
-	padding: 20px;
-}
+
 
 .clearfix:after {
     visibility: hidden;
@@ -109,32 +131,59 @@ footer {
 	text-align: center;
 }
 
-#slogan {
 
-	color: blue;
-}
 
 #logo {width: 15em;float: left;padding: 1em;}
 
 #jeans ul{
 	display:inline-block;
-	border: 1px green;
+	padding: 0em 3em;
+	line-height: 2em;
 }
 
 #jeans img {
-	max-width: 40em;
+	max-width: 60%;
+	display:inline-block;
+	float: left;
 }
 
 
+
+#jeanstypes {
+	display: inline-block;
+	float: left;
+	padding: 4em;
+}
+
+#jeanstypes p {
+	font-size: 18px;
+	text-align: left;
+	
+
+}
+
 #seen-in img {
-	max-height: 2em;
+	max-height: 24px;
 	margin: 2em 3em;
 
 }
 
-#seen-in p {
-	text-align: center;
-	text-size: 1.5em;
+
+
+#missionitem {
+	max-width: 33%;
+	display: inline-block;
+	float: left;
+	padding: 2em 2em;
+}
+
+#missionitem img {
+	max-width: 100%;
+}
+
+
+#manufacturing {
+	padding: 1em 0em;
 }
 
 h1 {
@@ -154,3 +203,6 @@ h3 {
 	text-transform: none;
 	font-size: 24px;
 }
+
+
+
