@@ -75,8 +75,26 @@ section {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: bold;
+	width: 80%;
 }
 .button1:hover {
+	background-color:rgba(107,42,74,.53);
+	color:#fff;
+	text-decoration:none;
+	font-weight: bold;
+}
+.button2 {
+	background-color: #603;
+	border: none;
+	color: white;
+	padding: 1em 2em;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+}
+.button2:hover {
 	background-color:rgba(107,42,74,.53);
 	color:#fff;
 	text-decoration:none;
@@ -114,6 +132,17 @@ p.sectionsubcopy {padding: .5em;font-size: 1.2em;text-align: center;}
     clear: both;
     height: 0;
 }
+.missionitem {
+	width: 33.33%;
+	float: left;
+	padding: 2em 2em;
+	height: 35em;
+	position: relative;
+}
+.missionitem img {
+	width: 100%;
+}
+
 #logo {
 	width: 15em;
 	float: left;
@@ -133,7 +162,7 @@ p.sectionsubcopy {padding: .5em;font-size: 1.2em;text-align: center;}
 
 }
 #splashcopy {
-	background-color: rgba(213, 213, 213, 0.6);
+	background-color: rgba(213, 213, 213, 0.7);
 	width: 30em;
 	text-align: center;
 	margin: 5em auto;
@@ -168,20 +197,14 @@ p.sectionsubcopy {padding: .5em;font-size: 1.2em;text-align: center;}
 #mission {
 	/* background-color: rgba(204,51,65,.08); */
 	padding: 3em 0;
+	
 }
-#missionitem {
-	width: 33.33%;
-	float: left;
-	padding: 2em 2em;
-	height: 35em;
-	position: relative;
-}
-#missionitem img {
-	width: 100%;
-}
+
+
 #team {
 
-	padding: 2em;
+	padding: 1em;
+	
 }
 
 #team li {
@@ -192,10 +215,10 @@ p.sectionsubcopy {padding: .5em;font-size: 1.2em;text-align: center;}
 }
 #julia {
 	
-	padding: 30px;
+	padding: 40px;
 	float: left;
-	width: 40%;
-	margin: 2em 3em 2em;
+	width: 50%;
+	margin: 0em 0em;
 
 }
 #julia img {
@@ -207,20 +230,23 @@ p.sectionsubcopy {padding: .5em;font-size: 1.2em;text-align: center;}
 	
 	padding: 30px;
 	float: left;
-	width: 40%;
-	margin: 2em 3em 0em;
+	width: 50%;
+	margin: 0em 0em;
 }
-#manufacturing {
-	padding: 1em 0em;
-}
+
+
+
 #seen-in {
-		border-top: 1px solid;
-		border-color: rgba(204,51,65,.5);
+		
 		padding: 3em 0;
 		text-align: center;
 }
 
-#seen-in img {height: 2em;margin: 1em;display: inline-block;}
+#seen-in img {
+	height: 2em;
+	margin: 1em;
+	display: inline-block;
+}
 
 
 
