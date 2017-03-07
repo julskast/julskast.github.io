@@ -257,6 +257,170 @@ p.sectionsubcopy {
 
 
 
+@media only screen and (min-width: 700px) and (max-width: 1035px) { 
+	
+	nav a {
+		
+		float: none;
+		padding: 1em 1em;
+		margin: .2em;
+		display: inline-block;
+		
+	}
+	nav {
+  
+    	float: none;
+    	text-align: center;
+    	
+    }
+    header {
+    	display: block;
+    	text-align: center;
+    }
+
+    #logo {
+		display: inline-block;
+		float: none;
+		text-align: center;
+	}
+	#jeanstypes  {
+
+		padding: 1em 2em;
+	}
+	#jeans ul{
+	
+		padding: 1em 2em 2em;
+		line-height: 1.5em;
+	}
+
+
+	.missionitem {
+		height: 32em;
+		position: relative;
+}
+	
+	#seen-in img {
+		
+		margin: 1em 3em;
+	}
+}
+
+@media only screen and (max-width: 840px) { 
+	
+	
+	.missionitem {
+		
+		float: left;
+		height: 33em;
+		text-align: center;
+		width: 50%;
+		position: relative;
+}
+	
+	
+
+@media only screen and (max-width: 699px) { 
+
+	nav a {
+		display: block;
+		text-align: center;
+
+	}
+
+	nav {
+  
+    	float: none;
+    }
+     header {
+    	text-align: center;
+    }
+	.missionitem {
+		
+		float: none;
+		height: 42em;
+		text-align: center;
+		width: 100%;
+		position: relative;
+		margin: 1em;
+	}
+	.ctasecondary {
+		width: 50%;
+		margin: auto;
+	}
+    #logo {
+    	display: inline-block;
+    	text-align: center;
+		float: none;
+	
+	}
+	#splash {
+		background-size: cover; 
+		max-height: 50%vh;
+		background-position: top left;
+
+	}
+	#splashcopy {
+		background-color: rgba(213, 213, 213, 0.7);
+		width: 30em;
+		text-align: center;
+		margin: 5em auto;
+	}
+	#splash p {
+		margin:1em 0 2em;
+	}
+	#jeanstypes  {
+
+		float: none;
+		width: 100%;
+		padding: 2em;
+		text-align: center;
+	}
+	#jeanstypes p {
+		font-size: 18px;
+		text-align: center;
+
+	}
+	#jeanstypes ul {
+		text-align: center;
+		list-style: none;
+		padding: 1em 1em;
+	}
+
+	#jeans img {
+		float: none;
+		width: 100%;
+	}
+	
+	
+
+	
+	#mission img {
+		width: 80%;
+	}
+
+	#julia {
+	
+		padding: 40px;
+		float: none;
+		width: 100%;
+		margin: 0em 0em;
+	}
+	#julia img {
+		max-height: 10em;
+		float: left;
+		margin: 0em 1em 1em;
+	}
+	#designsourcing {
+	
+		padding: 30px;
+		float: none;
+		width: 80%;
+		margin: auto;
+		text-align: center;
+	}
+}
+
+
 
 
 
