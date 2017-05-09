@@ -8,7 +8,7 @@
 <body>
 	<header class="clearfix">
 	
-		<a href="/"><img id="logo" src="images/duolingo.png" alt="Eva and Paul Logo"></a>
+		<a href="https://www.duolingo.com/" target="_blank"><img id="logo" src="images/duolingo.png" alt="Duolingo Logo" ></a>
 
 		<nav>
 			<a href="">Julia's anagram coding test</a>
@@ -17,24 +17,26 @@
 		</nav>
 	</header>
 	<section>
-	<h1>This is a tool to check if two phrases (strings) are anagrams.</h1>
-	<h2>What's an anagram, you ask? It's whether you can use all the letters in one phrase to make the second phrase without adding or removing letters. For the sake of time, I'm going to ignore spaces, hope that's all right with you.</h2>
-	<br><p>If you click the "Submit" button, you can see if your strings are anagrams. Give it a try!</p>
+	<h1>A tool to check if two phrases are anagrams</h1>
+	<h2>What's an anagram, you ask? It's whether you can use all the letters in one phrase to make the second phrase without adding or removing letters.</h2>
+	<br><p>FYI, this page is responsive - try it on your phone!</p><br><p>And if you click the "Submit" button, you can see if your strings are anagrams. Give it a try!</p>
 	<form action="">
 	<fieldset>
   		<p class="label">Please enter one word or phrase here:</p>
-  		<input class="field" type="text" name="firststring" value="First string here.">
+  		<input id="firstField" class="field" type="text" name="firststring" placeholder="First string here.">
  		<p class="label">Please enter your second word or phrase here:</p>
-  		<input class="field" type="text" name="secondstring" value="Second string here.">
+  		<input id="secondField" class="field" type="text" name="secondstring" placeholder="Second string here.">
   		<br>
   		<input type="submit" value="Submit" class="button1">
   	</fieldset>
 	</form> 
-
-	
+	<img id="congrats" src="images/giphy-downsized.gif" alt="hoorah!">
 	</section>
 	<footer>
 		<p>Made by Julia Kastner in 2017.</p>
 	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

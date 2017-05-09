@@ -114,6 +114,11 @@ input {
 	float: left;
 	padding: 1em;
 }
+#congrats {
+	max-width: 20em;
+	display: none;
+	margin: -4em auto 2em;
+}
 
 
 @media only screen and (max-width: 1035px) { 
