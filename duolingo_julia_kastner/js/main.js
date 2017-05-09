@@ -21,7 +21,7 @@ $(document).ready(function(){
 		var secondValue = $('#secondField').val();
 		var firstValueArray = firstValue.replace(/\W+/g, '').toLowerCase().split("").sort().join("");
 		var secondValueArray = secondValue.replace(/\W+/g, '').toLowerCase().split("").sort().join("");
-		if (firstValue.length !== secondValue.length) {
+		if (firstValueArray.length !== secondValueArray.length) {
 			$('form').append('<p class="answer">These two strings are not the same length. Try again.</p>');
 			$('#congrats').css( "display", "none" );
 		} else if (firstValueArray !== secondValueArray) {
@@ -31,6 +31,5 @@ $(document).ready(function(){
 			$('form').append('<p class="answer">These two strings are in fact anagrams. Hoorah!!</p>');
 			$('#congrats').css( "display", "block" );
 		}
-//		console.log('first', firstValue, 'second',  secondValue);
 	});
 });
