@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unit 9 Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="clearfix">
+	
+		<a href="" target="_blank"><img id="logo" src="" alt="Logo" ></a>
+
+		<nav>
+			<a href="">First nav link</a>
+			<a href="">Second nav link</a>
+			
+		</nav>
+	</header>
+	<section>
+		<h1>Monk's Cafe</h1>
+		<h2>"The Coffee Shop"</h2>
+		<img id="coffeeshop" src="images/toms-restaurant.jpg" alt="hoorah!">
+	</section>
+	<section>
+		<h1>Reservations</h1>
+		<div>
+		<h2>Make a Reservation</h2>
+			<form action="">
+				<fieldset>
+			  		<p class="label">Name</p>
+			  		<input id="nameField" class="field" type="text" name="name">
+			 		<p class="label">Day</p>
+			  		<input id="dayField" class="field" type="text" name="day">
+			  		<input type="submit" value="Confirm" class="button1">
+			  	</fieldset>
+			</form> 
+		</div>
+		<div>
+		<h2>Existing Reservations</h2>
+			<table>
+				<thead>
+					<th>Name</th>
+					<th>Day</th>
+				</thead>
+			<tbody></tbody>
+			</table>
+		</div>
+	</section>
+    <section>
+    	<h1>Come Dine with Us</h1>
+    	<div id="map"></div>
+    </section>
+    <section>
+    	<h1>Customer Reviews</h1>
+    	<img id="jerry" src="images/jerry.jpg" alt="jerry!">
+    	<p>“Big lettuce, big carrots, tomatoes like volleyballs.”</p>
+    	<p> — Jerry Seinfeld, on The BIG Salad</p>
+    </section>
+
+	<footer>
+		<p>Made by Julia Kastner in 2017.</p>
+	</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDk-t8mMS3c1O0qkt6zmoxCLrVQAMvK0pU&callback=initMap"></script>
+</body>
+</html>
+
